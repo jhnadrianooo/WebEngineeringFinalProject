@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Engineering Final Project</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <script type="application/javascript">
+        $(document).ready(function(){
+            $('nav ul li a').click(function(){
+                $('nav li a').removeClass("active");
+                $(this).addClass("active");
+            });
+        });
+    </script>
+
+    <!--NavBar-->
+        <nav>
+            <a href="#" class="logo"><img src="assets/images/logo.png"></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+    
+            <ul class="navbar">
+                <li><a href="#" class="nav__link active">HOME</a></li>
+                <li><a href="#education" class="nav__link">EDUCATION</a></li>
+                <li><a href="#hobbies" class="nav__link" >INTEREST</a></li>
+                <li><a href="#photos" class="nav__link" >PHOTOS</a></li>
+                <li><a href="#contact" class="nav__link">CONTACT</a></li>
+                <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrhVJXbjbWSMVhhwnCfCFRQxGDdNdptSZTdcnFhqwWbQXQLhgPbclHNSPrBRNnkbxXxCKg" class="top-btn">Contact Me</a></li>
+                <li><a href="index2.html" class="icon"><img src="assets/images/night.png"/></a></li>
+            </ul>
+            </nav>
+
+        <!--Home-->
+        <section class="HOME" id="home">
+            <div class="landing">
+                <div class="homepage">
+                    <h1>I'm <span>John Adrian Cruz</span></h1>
+                    <p>A Computer Engineering student at Bulacan State University, MAIN CAMPUS. <br> This website is for the final output on the subject of Web Engineering.
+                    </p>
+                    <a href="https://drive.google.com/uc?id=1HGud1TU5Eu9XT5HmUs2QQd5y67stBil7" class="cv-btn"> View CV </a>
+                </div>
+            <div class="images">
+                <img src="assets/images/shape.png" class="shape">
+                <img src="assets/images/boy.png" class="boy">
+            </div>
+        </section>
+        
+        <!--Education-->
+        <section class="EDUCATION" id="education">
+            <div class="acads">
+                <h2>EDUCATION JOURNEY</h2>
+                <p>"I can do all things through Christ who strengthens me"</p>
+            </div>
+
+            <div class="education-content">
+                <div class="col">
+                    <a href="assets/images/daycare.jpg">
+                        <img src="assets/images/daycare.jpg">
+                    </a>
+                    <div class="layer">
+                        <h3>DayCare</h3>
+                        <h5>Graduated at year 2006</h5>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <a href="assets/images/elementary.jpg">
+                        <img src="assets/images/elementary.jpg">
+                    </a>
+                    <div class="layer">
+                        <h3>Elementary</h3>
+                        <h5>Graduated at year 2012</h5>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <a href="assets/images/jhs.jpg">
+                        <img src="assets/images/jhs.jpg">
+                    </a>
+                    <div class="layer">
+                        <h3>Junior HighSchool</h3>
+                        <h5>Graduated at year 2016</h5>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <a href="assets/images/shs.jpg">
+                        <img src="assets/images/shs.jpg">
+                    </a>
+                    <div class="layer">
+                        <h3>Senior HighSchool</h3>
+                        <h5>Graduated at year 2018</h5>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <a href="assets/images/college.jpg">
+                        <img src="assets/images/college.jpg">
+                    </a>
+                    <div class="layer">
+                        <h3>College</h3>
+                        <h5>2018 to Present</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Hobbies-->
+        <section class="HOBBIES" id="hobbies">
+            <div class="hobby">
+                <span style="--i:1">i</span>
+                <span style="--i:2">n</span>
+                <span style="--i:3">t</span>
+                <span style="--i:4">e</span>
+                <span style="--i:5">r</span>
+                <span style="--i:6">e</span>
+                <span style="--i:7">s</span>
+                <span style="--i:8">t</span>
+            </div>
+        
+            <div class="box">
+                <div class="card">
+                    <img src="assets/images/ui_ux.png">
+                    <h5>UI/UX DESIGN</h5>
+                    <div class="cardcon">
+                        <p>Design in Adobe XD for final output for the internship at ICpEP-Singapore Chapter, Digital Technopreneurship department.</p>
+        
+                        <p style="text-align: center;">
+                            <a class="button" href="https://xd.adobe.com/view/6be7e12d-84f4-4a06-b8de-15f34b2722b0-3eb4/screen/689b4eef-ffa3-43f1-b93f-f16a20c199e4">See More</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="assets/images/photoedit.png">
+                    <h5>PHOTO/VIDEO EDITING</h5>
+                    <div class="cardcon">
+                        <p>The process of images manipulation and can be usually done by softwares like Adobe Photoshop, Microsoft Paint and more.</p>
+        
+                        <p style="text-align: center;">
+                            <a class="button" href="photovid.html">See More</a>
+                        </p>
+                    </div>
+                </div>
+        
+                <div class="card">
+                    <img src="assets/images/movie.png">
+                    <h5>MOVIE MARATHON</h5>
+                    <div class="cardcon">
+                        <p>To watch four or more movies in a row; usually done by a movie fans or anyone who has nothing to do to spend their free time.</p>
+        
+                        <p style="text-align: center;">
+                            <a class="button" href="soon.html">See More</a>
+                        </p>
+                    </div>
+                </div>
+        
+                <div class="card">
+                    <img src="assets/images/travel.png">
+                    <h5>TRAVEL</h5>
+                    <div class="cardcon">
+                        <p>A journey of going out somewhere especially to a distant or unfamiliar place; can be done individualy, with family or friends.</p>
+        
+                        <p style="text-align: center;">
+                            <a class="button" href="soon.html">See More</a>
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Photos-->
+        <section class="PHOTOS" id="photos">
+            <div class="word"></div>
+
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 15</div>
+                  <img src="assets/images/newyr.jpg" style="width:100%">
+                  <div class="text">Family</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 15</div>
+                  <img src="assets/images/g11.jpg" style="width:100%">
+                  <div class="text">Grade 11 - Recognition</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 15</div>
+                  <img src="assets/images/fiesta.jpg" style="width:100%">
+                  <div class="text">Ginoo ng Barangay</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 15</div>
+                    <img src="assets/images/kabayunan.jpg" style="width:100%">
+                    <div class="text">Kabayunan Viewdeck</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 15</div>
+                    <img src="assets/images/cheer.jpg" style="width:100%">
+                    <div class="text">Cheer Dance</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 15</div>
+                    <img src="assets/images/falcon.jpg" style="width:100%">
+                    <div class="text">Falcon Fighters</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">6 / 15</div>
+                    <img src="assets/images/mille.jpg" style="width:100%">
+                    <div class="text">Mille's Birthday</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">7 / 15</div>
+                    <img src="assets/images/prends.jpg" style="width:100%">
+                    <div class="text">SHS Friends</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">8 / 15</div>
+                    <img src="assets/images/wambi.jpg" style="width:100%">
+                    <div class="text">CPE - 1B</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">9 / 15</div>
+                    <img src="assets/images/shsgrad.jpg" style="width:100%">
+                    <div class="text">SHS Graduation</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">10 / 15</div>
+                    <img src="assets/images/DA.jpg" style="width:100%">
+                    <div class="text">Dumbledore's Army</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">11 / 15</div>
+                    <img src="assets/images/bayani.jpg" style="width:100%">
+                    <div class="text">Bayani's</div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">12 / 15</div>
+                    <img src="assets/images/carribean.jpg" style="width:100%">
+                    <div class="text">Carribean WaterPark</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">13 / 15</div>
+                    <img src="assets/images/debut.jpg" style="width:100%">
+                    <div class="text">Irish Debut</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">14 / 15</div>
+                    <img src="assets/images/five.jpg" style="width:100%">
+                    <div class="text">Buddy</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">15 / 15</div>
+                    <img src="assets/images/grp.jpg" style="width:100%">
+                    <div class="text">College Circle</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+            <br>
+                
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(4)"></span> 
+                    <span class="dot" onclick="currentSlide(5)"></span> 
+                    <span class="dot" onclick="currentSlide(6)"></span> 
+                    <span class="dot" onclick="currentSlide(7)"></span> 
+                    <span class="dot" onclick="currentSlide(8)"></span> 
+                    <span class="dot" onclick="currentSlide(9)"></span> 
+                    <span class="dot" onclick="currentSlide(10)"></span> 
+                    <span class="dot" onclick="currentSlide(11)"></span> 
+                    <span class="dot" onclick="currentSlide(12)"></span> 
+                    <span class="dot" onclick="currentSlide(13)"></span> 
+                    <span class="dot" onclick="currentSlide(14)"></span> 
+                    <span class="dot" onclick="currentSlide(15)"></span> 
+                </div>
+
+                <script>
+                    let slideIndex = 1;
+                    showSlides(slideIndex);
+                    
+                    function plusSlides(n) {
+                      showSlides(slideIndex += n);
+                    }
+                    
+                    function currentSlide(n) {
+                      showSlides(slideIndex = n);
+                    }
+                    
+                    function showSlides(n) {
+                      let i;
+                      let slides = document.getElementsByClassName("mySlides");
+                      let dots = document.getElementsByClassName("dot");
+                      if (n > slides.length) {slideIndex = 1}    
+                      if (n < 1) {slideIndex = slides.length}
+                      for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                      }
+                      for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                      }
+                      slides[slideIndex-1].style.display = "block";  
+                      dots[slideIndex-1].className += " active";
+                    }
+                    </script>
+        </section>
+        
+        <!--Footer-->
+        <footer>
+            <p>P E R S O N A L - W E B S I T E</p>
+            <div class="social">
+                <a href="https://www.facebook.com/adrian12.cruz" class="fb"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/_adrianooooooo/" class="insta"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/adrianoooCrz/" class="twit"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com/channel/UCVEZsCW6N1-1vGpaBzU5JNQ" class="yt"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p id="contact" class="end">© 2022 COPYRIGHT BY JOHN ADRIAN I. CRUZ | CPE 411/L - WEB ENGINEERING LEC/LAB</p>
+        </footer>
+
+    <!--Link to JS-->
+    <script type="text/javascript" src="assets/js/script.js"></script>       
+    </div>
+</body>
+</html>
